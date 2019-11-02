@@ -9,17 +9,17 @@
     <link rel="stylesheet" type="text/css" href="css/fontello.css"/>
 </head>
 <body>
-    <div>
-        <div>
-            <a></>Dev</a>
-            <a></a>
-            <a>About me</a>
-            <a>Skills</a>
-            <a>Portfolio</a>
-            <a>Contact</a>
+    <div class="container">
+        <div class="map">
+            <img src="icons/group.jpg"/>
+            <a class="div">Dev</a>
+            <a href="#about-me" class="teleport">About me</a>
+            <a href="#skills" class="teleport">Skills</a>
+            <a href="#portfolio" class="teleport">Portfolio</a>
+            <a href="#contact" class="teleport">Contact</a>
         </div>
         <header>
-            <h1>Welcome!</h1>
+            <h1><b>Welcome!</b></h1>
             <h2>My name is Maciej</h2>
             <ul>
                 <li><a href="#"><i class="icon-facebook-squared"></i></a></li>
@@ -28,17 +28,17 @@
                 <li><a href="#"><i class="icon-vimeo-squared"></i></a></li>
             </ul>
         </header>
-        <div>
-            <h2>I am happy to can help you with any problem!</h2>
+        <div class="welcome">
+            <h2>I am happy to help you with any problem!</h2>
             <ul>
-                <li><a>Contact me!</a></li>
-                <li><a>Check my CV</a></li>
+                <li><a href="#" class="button">Contact me!</a></li>
+                <li><a href="#" class="button">Check my CV</a></li>
             </ul>
         </div>    
-        <div>
+        <div id="about-me" class="description">
             <h2><b>About me</b></h2>
-            <div>
-                <a><img src="#"/></a>
+            <div class="data">
+                <a class="img"></a>
                 <ul>
                     <li><b>Full Name:</b><a>Maciej Przybyłowicz</a></li>
                     <li><b>Age:</b><a>22 Years</a></li>
@@ -46,43 +46,81 @@
                     <li><b>Telephone:</b><a>+48 534-621-656</a></li>
                     <li><b>E-mail:</b><a>Maciej2497@gmail.com</a></li>
                 </ul>
-                <a>mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</a>
+                <a class="text">I'am creative and open person. I make many projects that give me a lot of experience with a lot of programs. My adventure with programming started 20 days ago, I have gotten lot of experience in this time, with enough time we can make everything on ours computers. I am not afraid of any challenges, so if you have some task, feel free to message me, i will respond as soon as possible.</a>
             </div>
         </div>
-        <div>
+        <div id="skills" class="skills">
             <h2><b>Skills</b></h2>
             <div>
                 <ul>
                     <li>
-                        <a><img src=""/></a>
+                        <a><img src="icons/ui.jpg"/></a>
                         <p>UX/UI</p>
                         <p>Figma</p>
                     </li>
-                    <li>
-                        <a><img src=""/></a>
+                    <li class="middle">
+                        <a><img src="icons/icon_frontend.jpg"/></a>
                         <p>Front End</p>
                         <p>Html, CSS, JavaScript</p>
                     </li>
                     <li>
-                        <a><img src=""/></a>
+                        <a><img src="icons/icon_backend.jpg"/></a>
                         <p>Back End</p>
                         <p>PHP, Node.js</p>
                     </li>
                 </ul>
             </div>
         </div>
-        <div>
+        <div id="portfolio" class="portfolio">
           <h2><b>Portfolio</b></h2>
           <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li class="box1">
+                  <h2>E-map</h2>
+                  <p>In cooperation with Space-X I made "E-map", an application to help plan your travel and internet exploration of world.</p>
+                  <a href="#" class="button">View</a>
+              </li>
+              <li class="box2"></li>
+              <li class="box3"></li>
+              <li class="box4"></li>
+              <li class="box5">
+                    <h2>Home designer</h2>
+                    <p>This is website was made by me. You can stylize your home by using a simple application. This website cooperates with many buildings and renovations shops. You can use items from this website to design your ideal home.</p>
+                    <a href="#" class="button">View</a>
+              </li>
           </ul>
         </div>
-        <div>
-
+        <div id="contact">
+            <h2><b>Contact us</b></h2>
+                 
+            <div class="contact1">
+                <div class="contact-d">
+                    <img/>
+                    <p>Please describe yours question. Send me a message and I will answer you as soon as possible!</p> 
+                    <ul class="fontello">
+                        <li><a href="#"><i class="icon-facebook-squared"></i></a></li>
+                        <li><a href="#"><i class="icon-twitter-squared"></i></a></li>
+                        <li><a href="#"><i class="icon-git-squared"></i></a></li>
+                        <li><a href="#"><i class="icon-vimeo-squared"></i></a></li>
+                    </ul>
+                    <ul>
+                        <li><b>Designer</b></li>
+                        <li><b>Poland, Jawor</b></li>
+                        <li>ul. Jagiellończyka 9b/4 59-400</li>
+                        <li>+48 534-621-656</li>
+                        <li>maciej2497@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="contact-s">
+                    <ul>
+                        <li><h1><b>Let's start!</b></h1></li>
+                        <li><form action="login.php" method="post" ><input type="text" placeholder="Name" class="selector"/></form></li>
+                        <li><form action="login.php" method="post" ><input type="text" placeholder="Your e-mail adress" class="selector"/></form></li>
+                        <li><form action="login.php" method="post" ><input type="text" placeholder="Topic" class="selector"/></form></li>
+                        <li><form action="login.php" method="post" ><textarea type="comment" placeholder="Message" class="message"></textarea> </form></li>
+                        <li><a href="#" class="button">Send</a></li>
+                    </ul>
+                </div>   
+            </div>
         </div>
     </div>
 </body>
