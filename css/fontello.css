@@ -55,7 +55,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-vimeo-squared:before { content: '\f194'; } /* '' */
-.icon-git-squared:before { content: '\f1d2'; } /* '' */
-.icon-twitter-squared:before { content: '\f304'; } /* '' */
-.icon-facebook-squared:before { content: '\f308'; } /* '' */
+.icon-vimeo-squared:before { content: '\f194'; color:#FFC53D; } /* '' */
+.icon-git-squared:before { content: '\f1d2'; color:#FFC53D; } /* '' */
+.icon-twitter-squared:before { content: '\f304'; color:#FFC53D; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; color:#FFC53D; } /* '' */

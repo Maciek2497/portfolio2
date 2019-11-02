@@ -1,0 +1,125 @@
+html{
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+body{
+    margin:0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 234, 226);
+}
+/*map*/
+.map{
+    position: fixed;
+    display: flex;
+    height: 50px;
+    background-color: rgb(190, 186, 186);
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    text-align: center;
+
+}
+.map a{
+    text-align: left;
+}
+.map img{
+    min-width: 20px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.map .div{
+    flex:1;
+    padding-left: 55px;
+}
+.map .teleport{
+    display: inline-block;
+    max-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
+    transition: all 0.5s;
+    color: black;
+}
+.teleport:hover{
+    background-color: rgb(114, 111, 111);
+}
+.map .about{
+    min-width: 70px;
+}
+/*header*/
+header{
+    background-image: url(fotos/cover-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 50% 0%;
+    background-clip: border-box;
+    margin-top: 50px;
+}
+
+header h1{
+    font-size: 100px;
+    color: #FFC53D;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 160px;
+    line-height: 0;
+}
+header h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 0px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+header ul li{
+    font-size: 30px;
+    margin: 50px 15px 160px;
+    padding:0px;
+}
+
+/*welcome*/
+
+.welcome{
+    text-align: center;
+}
+.welcome h2{
+    font-size: 40px;
+}
+.welcome ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    flex-wrap: wrap;
+
+}
+.button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgba(256, 171, 62, 0.3);
+    background: linear-gradient(270deg, #ffc53d 14%, #ff9a3d 68.5%);
+    font: bold;
+    color: #fff;
+    border-radius: 16px;
+    margin: 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+    text-align: center;
+}
+.button:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+
