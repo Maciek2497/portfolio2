@@ -419,6 +419,9 @@ header ul li{
     .box1{
         width: 100%;
     }
+    .box1 .overlay{
+        padding-right: 30px;
+    }
     .box2{
         min-width: 30%;
     }
@@ -430,6 +433,9 @@ header ul li{
     }
     .box5{
         width: 100%;
+    }
+    .box5 .overlay{
+        padding-right: 30px;
     }
     .contact1{
         flex-direction:column;
