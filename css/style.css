@@ -386,8 +386,8 @@ header ul li{
         min-width: 200px;
     }
     .data .img{
-        width:240px;
-        height:240px;
+        min-width:400px;
+        min-height:240px;
     }
 }
 @media all and (max-width: 520px){
@@ -420,7 +420,7 @@ header ul li{
         width: 100%;
     }
     .box1 .overlay{
-        padding-right: 30px;
+        padding-right: 10px;
     }
     .box2{
         min-width: 30%;
@@ -435,7 +435,7 @@ header ul li{
         width: 100%;
     }
     .box5 .overlay{
-        padding-right: 30px;
+        padding-right: 10px;
     }
     .contact1{
         flex-direction:column;
