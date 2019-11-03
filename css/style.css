@@ -7,6 +7,12 @@ ul {
 body{
     margin:0;
 }
+a{
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+p{
+    font-family: 'ZCOOL XiaoWei', serif;
+}
 h1{
     font-family: 'EB Garamond', serif;
 }
@@ -322,6 +328,7 @@ header ul li{
 }
 .contact-d p{
     width: 220px;
+    font-family: none;
 }
 .contact-d ul{
     padding:0px;
