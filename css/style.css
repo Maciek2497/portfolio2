@@ -376,18 +376,19 @@ header ul li{
         align-items: center;
     }
     #about-me .data ul{
-        padding:0;
+        padding: 10px 0;
         margin:0;
+        min width: 80%;
 
     }
-    .data ul{
+    .data ul li{
         min width: 80%;
     }
     #about-me .data .text{
         border-left: none;
         border-top: 4px solid #ff0;
         border-top-style: dashed;
-        padding-top: 15px;
+        padding-top: 25px;
         text-justify: justify;
         min-width: 200px;
     }
