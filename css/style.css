@@ -375,6 +375,10 @@ header ul li{
         flex-direction: column;
         align-items: center;
     }
+    #about-me .data ul{
+        padding:0;
+        margin:0;
+    }
     #about-me .data .text{
         border-left: none;
         border-top: 4px solid #ff0;
@@ -417,6 +421,9 @@ header ul li{
     .box1{
         width: 100%;
     }
+    .box1 p{
+        max-width: 50%;
+    }
     .box1 .overlay{
         padding-right: 10px;
     }
@@ -435,11 +442,14 @@ header ul li{
     .box5{
         width: 100%;
     }
+    .box5 p{
+        max-width: 50%;
+    }
     .box5 .overlay{
         padding-right: 10px;
     }
     #portfolio .box5 .overlay p{
-        min-width: 20px;
+        min-width: 250px;
     }
     .contact1{
         flex-direction:column;
