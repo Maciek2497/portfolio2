@@ -7,6 +7,12 @@ ul {
 body{
     margin:0;
 }
+h1{
+    font-family: 'EB Garamond', serif;
+}
+h2{
+    font-family: 'EB Garamond', serif;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -26,6 +32,7 @@ body{
 }
 .map a{
     text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 .map img{
     min-width: 20px;
@@ -61,6 +68,14 @@ header{
     background-position: 50% 0%;
     background-clip: border-box;
     margin-top: 50px;
+}
+header .overlay{
+    background-image: url(fotos/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 50% 0%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 header h1{
@@ -229,6 +244,14 @@ header ul li{
     min-width: 28%;
     min-height: 300px;
     background-position: 50% 0%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.box1 .overlay{
+    background-image: url(fotos/hover1.png);
+    background-size: 100% 100%;
+    min-height: 100%;
+    padding: 30px 60px 30px 30px;
 }
 .box1 p{
     max-width: 230px;
@@ -264,6 +287,15 @@ header ul li{
     min-width: 50%;
     min-height: 300px;
     background-position: 50% 0%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.box5 .overlay{
+    background-image: url(fotos/hover2.png);
+    background-size: cover;
+    min-height: calc(100% - 60px);
+    background-position: 50% 0%;
+    padding: 30px;
 }
 .box5 p{
     max-width: 400px;
@@ -441,5 +473,22 @@ header ul li{
     }
     .welcome h2{
         font-size: 32px;
+    }
+    .map img{
+        display: none;
+    }
+    .map .div{
+        display:none;
+    }
+}
+@media all and (max-width: 410px){
+    .map .teleport{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .map .long{
+        min-width: 70px;
     }
 }
