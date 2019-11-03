@@ -168,8 +168,6 @@ header ul li{
     background-size: cover;
     min-width: 140px;
     min-height: 140px;
-    max-width: 140px;
-    max-height: 140px;
     border: 3px solid gold;
     border-radius: 20px;
 }
@@ -422,6 +420,9 @@ header ul li{
     .box1 .overlay{
         padding-right: 10px;
     }
+    #portfolio .box1 .overlay p{
+        min-width: 250px;
+    }
     .box2{
         min-width: 30%;
     }
@@ -436,6 +437,9 @@ header ul li{
     }
     .box5 .overlay{
         padding-right: 10px;
+    }
+    #portfolio .box5 .overlay p{
+        min-width: 20px;
     }
     .contact1{
         flex-direction:column;
