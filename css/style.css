@@ -385,6 +385,10 @@ header ul li{
         text-justify: justify;
         min-width: 200px;
     }
+    .data .img{
+        min-width:240px;
+        min-height:240px;
+    }
 }
 @media all and (max-width: 520px){
     #skills{
@@ -411,7 +415,7 @@ header ul li{
 
     }
 }
-@media all and (max-width: 900px){
+@media all and (max-width: 1100px){
     .box1{
         width: 100%;
     }
