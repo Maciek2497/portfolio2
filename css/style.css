@@ -378,6 +378,10 @@ header ul li{
     #about-me .data ul{
         padding:0;
         margin:0;
+
+    }
+    .data ul{
+        min width: 80%;
     }
     #about-me .data .text{
         border-left: none;
